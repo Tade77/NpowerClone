@@ -10,13 +10,23 @@ const NavB = () => {
       style={{
         display: "flex",
         justifyContent: "space-between",
-        margin: "15px 15px",
+        padding: "15px 15px",
+        position: "fixed",
+        width: "100%",
+        backgroundColor: "#fff",
       }}
     >
       <Nav>
         <a
           href="#"
-          style={{ textDecoration: "none", marginLeft: "15px", color: "black" }}
+          style={{
+            textDecoration: "none",
+            marginLeft: "15px",
+            color: "black",
+            fontSize: "18px",
+            lineHeight: "21px",
+            fontWeight: "600px",
+          }}
         >
           Federal Ministry of Humanitarian Affairs, Disaster <br />
           Management and Social Development

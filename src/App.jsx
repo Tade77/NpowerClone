@@ -1,7 +1,6 @@
 import { Container } from "react-bootstrap";
 import "./App.css";
-import Button from "./Atom/Button";
-import Layout from "./Template/Layout";
+import Layout from "../src/Components/Template/Layout";
 
 function App() {
   return (
