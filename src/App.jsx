@@ -1,13 +1,13 @@
 import { Container } from "react-bootstrap";
 import "./App.css";
+import Button from "./Atom/Button";
+import Layout from "./Template/Layout";
 
 function App() {
   return (
-    <Container>
-      <div>
-        <h1>Hello</h1>
-      </div>
-    </Container>
+    <div>
+      <Layout />
+    </div>
   );
 }
 
