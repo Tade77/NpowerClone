@@ -21,7 +21,14 @@ const About = () => {
         >
           About
         </p>
-        <p style={{ fontSize: "26px", lineHeight: "31px", fontWeight: 700 }}>
+        <p
+          style={{
+            fontSize: "26px",
+            lineHeight: "31px",
+            fontWeight: 700,
+            marginBottom: "50px",
+          }}
+        >
           Providing efficient, effective, and coordinated humanitarian response
           to Nigerians.
         </p>
@@ -30,6 +37,7 @@ const About = () => {
             fontSize: "16px",
             lineHeight: "24px",
             fontWeight: 400,
+            marginBottom: "50px",
             color: "rgba(0,0,0, 0.5)",
           }}
         >
