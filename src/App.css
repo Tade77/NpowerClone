@@ -1,13 +1,20 @@
 .login {
-  padding: 12px 60px;
+  padding: 18px 60px;
   background-color: rgb(40 136 85);
   color: white;
   border-radius: 5px;
   margin-left: 20px;
   margin-right: 20px;
+  border: none;
+}
+.login:hover {
+  /* transition: 0.05s ease;
+  border: 3px solid #dbf9ea; */
 }
 .more {
-  padding: 10px 15px;
-  background-color: rgba(0, 255, 255, 0.3);
-  color: blue;
+  padding: 18px 60px;
+  background-color: #dbf9ea;
+  color: #338a63;
+  /* outline: none; */
+  border: none;
 }

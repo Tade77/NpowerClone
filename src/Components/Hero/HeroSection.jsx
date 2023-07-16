@@ -32,6 +32,7 @@ const HeroSection = () => {
               color: "green",
             }}
             href="https://ncdc.gov.ng"
+            target="_blank"
           >
             here
           </a>

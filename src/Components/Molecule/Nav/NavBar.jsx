@@ -10,26 +10,34 @@ const NavB = () => {
       style={{
         display: "flex",
         justifyContent: "space-between",
-        padding: "15px 15px",
+        alignItems: "center",
+        padding: "15x 15px",
         position: "fixed",
         width: "100%",
+        boxShadow: "5px 5px 5px rgba(0,0,0, 0.4)",
         backgroundColor: "#fff",
+        zIndex: 1,
       }}
     >
       <Nav>
         <a
           href="#"
-          style={{
-            textDecoration: "none",
-            marginLeft: "15px",
-            color: "black",
-            fontSize: "18px",
-            lineHeight: "21px",
-            fontWeight: "600px",
-          }}
+          style={
+            {
+              // textDecoration: "none",
+              // marginLeft: "15px",
+              // color: "black",
+              // fontSize: "18px",
+              // lineHeight: "21px",
+              // fontWeight: 600,
+            }
+          }
         >
-          Federal Ministry of Humanitarian Affairs, Disaster <br />
-          Management and Social Development
+          <img
+            style={{ height: "60px", width: "60px" }}
+            src="/public/nasims-1616816230.png"
+            alt=""
+          />
         </a>
       </Nav>
       <Nav className="">

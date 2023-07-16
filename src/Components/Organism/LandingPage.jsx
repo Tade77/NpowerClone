@@ -4,6 +4,7 @@ import OfficialSection from "../Official/OfficialSection";
 import About from "../About/About";
 import Program from "../Prog/Program";
 import News from "../News/News";
+import Contact from "../Contact";
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <About />
       <Program />
       <News />
+      <Contact />
     </div>
   );
 };

@@ -1,0 +1,29 @@
+.program--card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 600px;
+
+  /* z-index: -1; */
+}
+.program--card > .card {
+  box-shadow: 10px 10px 10px #ebebeb;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+.foto {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.caption {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  color: #f9ae00;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 20px;
+}

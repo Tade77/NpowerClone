@@ -41,6 +41,8 @@ const OfficialSection = () => {
               color: "green",
               textDecoration: "none",
               marginRight: "5px",
+              fontSize: "16px",
+              lineHeight: "24px",
             }}
             href="https://fmhds.gov.ng"
           >

@@ -1,11 +1,16 @@
 import { Container } from "react-bootstrap";
 import "./App.css";
-import Layout from "../src/Components/Template/Layout";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Components/About/About";
 
 function App() {
   return (
     <div>
-      <Layout />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   );
 }
