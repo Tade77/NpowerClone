@@ -1,10 +1,11 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./style.css";
 import Button from "../../Atom/Button";
 
 const NavB = () => {
+  const navigate = useNavigate();
   return (
     <Navbar
       style={{
@@ -53,7 +54,9 @@ const NavB = () => {
         <Nav.Link to="/contact" as={NavLink}>
           Contact
         </Nav.Link>
-        <Button label={"Login"} buttonType={"login"} />
+        <div onClick={() => navigate("/login")}>
+          <Button label={"Login"} buttonType={"login"} />
+        </div>
       </Nav>
     </Navbar>
   );

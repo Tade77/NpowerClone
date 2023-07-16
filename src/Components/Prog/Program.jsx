@@ -32,6 +32,8 @@ const Program = () => {
       style={{
         backgroundColor: "#f2fcf9",
         marginBottom: "100px",
+        marginLeft: "10px",
+        marginRight: "10px",
         paddingBottom: "100px",
       }}
     >
