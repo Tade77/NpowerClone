@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, [currentImages, images.length]);
 
   return (
-    <div style={{ width: "100%", objectFit: "contain" }}>
+    <div style={{ width: "100%", height: "50%", objectFit: "contain" }}>
       <img style={{ width: "100%" }} src={images[currentImages]} alt="images" />
       <div
         style={{

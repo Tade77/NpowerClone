@@ -66,15 +66,19 @@ const Footer = () => {
           gap: "20px",
         }}
       >
-        <img style={{ height: "20px", width: "20px" }} src="/fb.png" alt="" />
         <img
           style={{ height: "20px", width: "20px" }}
-          src="/twit2.png"
+          src="/public/iconmonstr-facebook-4-240.png"
           alt=""
         />
         <img
           style={{ height: "20px", width: "20px" }}
-          src="/instal.svg"
+          src="/public/iconmonstr-twitter-4.svg"
+          alt=""
+        />
+        <img
+          style={{ height: "20px", width: "20px" }}
+          src="/public/iconmonstr-instagram-14-240.png"
           alt=""
         />
       </div>

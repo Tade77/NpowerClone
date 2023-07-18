@@ -5,6 +5,7 @@ import About from "../About/About";
 import Program from "../Prog/Program";
 import News from "../News/News";
 import Contact from "../Contact";
+import Footer from "../Molecule/Footer";
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Program />
       <News />
       <Contact />
+      <Footer/>
     </div>
   );
 };
