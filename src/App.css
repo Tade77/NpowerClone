@@ -18,3 +18,9 @@
   /* outline: none; */
   border: none;
 }
+.proceed {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(40 136 85);
+  color: #fff;
+}

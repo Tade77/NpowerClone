@@ -1,15 +1,18 @@
 import React from "react";
 import "./Style.css";
+import LoginForm from "../Molecule/Form/Inputs";
 
 const Login = () => {
   return (
     <div className="nav">
       <div className="info--container">
-        <div className="header">
+        <div className="title">
           <p>Login to your NASIMS Account</p>
         </div>
         <div className="reg--info">
-          <p>For biometrics enrolment, kindly follow the instructions below;</p>
+          <p style={{ color: "#288855", marginLeft: "15px" }}>
+            For biometrics enrolment, kindly follow the instructions below;
+          </p>
           <div className="reg--step">
             <ol>
               <li>Login to your dashboard and click the "verification" tab</li>
@@ -44,6 +47,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      <LoginForm />
     </div>
   );
 };

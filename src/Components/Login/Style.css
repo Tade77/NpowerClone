@@ -1,6 +1,33 @@
 .info--container {
-  /* background-color: aquamarine; */
-  padding-top: 200px;
+  margin-top: 100px;
+  margin-left: 15px;
+  margin-bottom: 100px;
+  width: 390px;
+}
+.title {
+  margin: 50px 0;
+  font-size: 32px;
+  line-height: 38px;
+  font-family: 600;
+  color: #212529;
+}
+.reg--info {
+  width: 450px;
+  height: 750px;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 30px 30px;
+  background-color: #dbf9ea;
+}
+.reg--step {
+  color: #212529;
+}
+.foo--msg {
+  color: #288855;
+  margin-left: 15px;
 }
 .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

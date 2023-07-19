@@ -42,8 +42,9 @@ const News = () => {
             <figure className="img-wrap">
               <img className="img" src={card.image} alt="image" />
             </figure>
-            <figcaption className="title">{card.title}</figcaption>
-            <figcaption className="date">{card.date}</figcaption>{" "}
+            <figcaption className="program--title">{card.title}</figcaption>
+            <figcaption className="date">{card.date}</figcaption>
+            <span className="line"></span>
             <figcaption className="description">{card.description}</figcaption>
           </div>
         ))}

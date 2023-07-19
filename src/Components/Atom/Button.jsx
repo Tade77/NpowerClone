@@ -4,7 +4,13 @@ const Button = ({ label, buttonType }) => {
   return (
     <button
       className={
-        buttonType === "login" ? "login" : buttonType === "more" ? "more" : ""
+        buttonType === "login"
+          ? "login"
+          : buttonType === "more"
+          ? "more"
+          : buttonType === "proceed"
+          ? "proceed"
+          : ""
       }
     >
       {label}

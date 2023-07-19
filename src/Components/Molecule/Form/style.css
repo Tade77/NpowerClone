@@ -1,0 +1,27 @@
+.login--inputs {
+  position: absolute;
+  left: 935px;
+  top: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input--group {
+  width: 400px;
+  height: 50px;
+}
+.check {
+  position: absolute;
+  left: 935px;
+  top: 620px;
+}
+.psw {
+  position: absolute;
+  left: 1210px;
+  top: 620px;
+}
+.loginB {
+  position: relative;
+  top: 660px;
+  left: -15px;
+}
