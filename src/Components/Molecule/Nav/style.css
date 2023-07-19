@@ -1,5 +1,6 @@
-/* .navs {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
+.navs .navList.active {
+  border-bottom: 4px solid #0d9e4e;
+}
+.navs {
+  gap: 20px;
+}

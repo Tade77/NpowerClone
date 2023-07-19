@@ -10,14 +10,14 @@ const Program = () => {
     {
       images: "/public/images5.jpeg",
       caption: "Government Enterprise and Empowerment Program (GEEP)",
-      // btnA: <Button label={"Apply Now"} buttonType={"login"} />,
-      // btnL: <Button label={"Learn More"} buttonType={"more"} />,
+      description:
+        "The National Home Grown School Feeding Program was created to provide a nutritious and balanced meal to 5.5 million school children grades 1 to 3",
     },
     {
       images: "/public/images5.jpeg",
       caption: "National Home Grown School Feeding Program (NHGSFP)",
-      // btnA: <Button label={"Apply Now"} buttonType={"login"} />,
-      // btnL: <Button label={"Learn More"} buttonType={"more"} />,
+      description:
+        "The National Home Grown School Feeding Program was created to provide a nutritious and balanced meal to 5.5 million school children grades 1 to 3",
     },
   ];
   useEffect(() => {
@@ -55,6 +55,8 @@ const Program = () => {
             <figure className="card">
               <img className="foto" src={proImg.images} alt="" />
               <figcaption className="caption">{proImg.caption}</figcaption>
+              <figcaption className="desc">{proImg.description}</figcaption>
+
               <div className="btns">
                 <Button label={"Apply Now"} buttonType={"login"} />
                 <Button label={"Learn More"} buttonType={"more"} />

@@ -16,17 +16,17 @@ const Contact = () => {
         <div className="icon">
           <img
             style={{ height: "20px", width: "20px" }}
-            src="/public/fb.png"
+            src="/public/iconmonstr-facebook-4-240.png"
             alt=""
           />
           <img
             style={{ height: "20px", width: "20px" }}
-            src="/public/twit2.png"
+            src="/public/iconmonstr-twitter-4.svg"
             alt=""
           />
           <img
             style={{ height: "20px", width: "20px" }}
-            src="/public/instal.svg"
+            src="/public/iconmonstr-instagram-14-240.png"
             alt=""
           />
         </div>

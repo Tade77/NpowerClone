@@ -3,15 +3,11 @@ import React, { useEffect, useState } from "react";
 const HeroSection = () => {
   const [currentImages, setCurrentImages] = useState(1);
 
-  const images = [
-    "/public/npower2.jpeg",
-    "/public/images2.jpeg",
-    "/public/images3.jpeg",
-  ];
+  const images = ["/public/npower2.jpeg", "/public/images5.jpeg"];
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImages((currentImages + 1) % images.length);
-    }, 3000);
+    }, 10000);
     return () => clearInterval(intervalId);
   }, [currentImages, images.length]);
 

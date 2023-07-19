@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
-  height: 600px;
+  height: 700px;
 
   /* z-index: -1; */
 }
@@ -21,9 +21,14 @@
   line-height: 29px;
   font-weight: 700;
   color: #f9ae00;
+  margin-left: 25px;
+}
+.desc {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px 23px;
 }
 .btns {
   display: flex;
   flex-direction: row;
-  margin: 60px 20px;
+  margin: 80px 10px;
 }
