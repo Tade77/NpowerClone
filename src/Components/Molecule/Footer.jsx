@@ -68,17 +68,17 @@ const Footer = () => {
       >
         <img
           style={{ height: "20px", width: "20px" }}
-          src="/public/iconmonstr-facebook-4-240.png"
+          src="/public/facebook.png"
           alt=""
         />
         <img
           style={{ height: "20px", width: "20px" }}
-          src="/public/iconmonstr-twitter-4.svg"
+          src="/public/twitter.png"
           alt=""
         />
         <img
           style={{ height: "20px", width: "20px" }}
-          src="/public/iconmonstr-instagram-14-240.png"
+          src="/public/instagram.png"
           alt=""
         />
       </div>
